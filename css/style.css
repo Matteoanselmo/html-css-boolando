@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    position: relative;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.product{
+    display: inline-block;
+}
+
+.row{
+    height: 50%;
+}
+.first-img{
+    width: calc(100% / 3);
+} 
+
+.heart{
+    right: 0%;
+    top: 30px;
+    background-color: white;
+}
+
+.sconto-item{
+    left: 0;
+    bottom: 20px;
+}
+
+.sconto{
+    color: white;
+    padding: 3px 6px;
+    font-family: monospace;
+}
+
+.sconto-alto{
+    background-color: rgb(235, 0, 55);
+}
+
+.sconto-descrizione{
+    background-color: rgb(0, 135, 90);
+}
+
+.block{
+    display: block;
+}
+
+.marca-descrizione{
+    font-weight: bold;
+}
+
+.new-price{
+    font-weight: bold;
+    font-size: smaller;
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
